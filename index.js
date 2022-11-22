@@ -1,7 +1,7 @@
 console.log("project is working");
 let p1=document.getElementById("p1");
 let p2=document.getElementById("p2");
-const diceroll=new Audio('../dice_shake-96201.mp3');
+const diceroll=new Audio('dice_shake-96201.mp3');
 
 document.getElementById("roll").addEventListener("click",function(e){
     diceroll.play();
